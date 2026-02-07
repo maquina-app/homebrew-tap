@@ -7,10 +7,10 @@ class Recuerd0Cli < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/maquina-app/recuerd0-cli/releases/download/v#{version}/recuerd0-darwin-arm64"
-      sha256 "Not"
+      sha256 "c251cd0c26602a08fdddb3865aa0617785052286909c778f8d61222175410d56"
     else
       url "https://github.com/maquina-app/recuerd0-cli/releases/download/v#{version}/recuerd0-darwin-amd64"
-      sha256 "Not"
+      sha256 "9425aa3b404b042b32c6a697d3e130c88f6236033e17f5fa844d118b74a23af0"
     end
   end
 
