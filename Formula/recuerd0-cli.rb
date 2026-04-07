@@ -1,16 +1,16 @@
 class Recuerd0Cli < Formula
   desc "CLI for preserving, versioning, and organizing knowledge from AI conversations"
   homepage "https://github.com/maquina-app/recuerd0-cli"
-  version "0.1.5"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/maquina-app/recuerd0-cli/releases/download/v#{version}/recuerd0-darwin-arm64"
-      sha256 "0f8d10c052887bc3e5206407683ebbf68545df6b2bbcfad5e45f629a8f72b480"
+      sha256 "d361ebb6a89b75c8753b94158f0f0b3b6fc59bde1b20256e046f57a97e56484e"
     else
       url "https://github.com/maquina-app/recuerd0-cli/releases/download/v#{version}/recuerd0-darwin-amd64"
-      sha256 "cc659a66d14790b8cadf74a16a246d0643d459417b4587f238143a77502a446a"
+      sha256 "26c25800f767e769807153f066e9f99cbad9e5aa63b96f97224d50eb44545109"
     end
   end
 
